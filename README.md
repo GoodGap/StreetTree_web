@@ -27,7 +27,7 @@ To start using the template click on `Use this Template`.
 The template uses html for controlling the content and css for controlling the style. 
 To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
 
-**IMPORTANT!** Make sure to update the favicon used by the page (see the `<link rel="icon">` tag in `index.html`) to one of your own.
+Favicon is optional. If you want one, add/update a `<link rel="icon">` tag in `index.html`.
 
 ## What's New
 
@@ -70,7 +70,7 @@ Create a 1200x630px social preview image at `static/images/social_preview.png`.
 
 - Compress images with [TinyPNG](https://tinypng.com)
 - Use YouTube for large videos (>10MB)  
-- Replace/update the favicon referenced in `index.html`
+- (Optional) Add/update a favicon in `index.html`
 - Works with GitHub Pages
 
 ## Acknowledgments
