@@ -1,80 +1,40 @@
-# Academic Project Page Template
+# StreetTree Project Page
 
-> **Update (September 2025)**: This template has been modernized with better design, SEO, and mobile support. For the original version, see the [original-version branch](https://github.com/eliahuhorwitz/Academic-project-page-template/tree/original-version).
+Project page for **StreetTree: A Large-Scale Global Benchmark for Fine-Grained Tree Species Classification**.
 
-A clean, responsive template for academic project pages.
+## Live Page
 
+- https://goodgap.github.io/StreetTree_web/
 
-Example project pages built using this template are:
-- https://horwitz.ai/probex
-- https://vision.huji.ac.il/probegen
-- https://horwitz.ai/mother
-- https://horwitz.ai/spectral_detuning
-- https://vision.huji.ac.il/ladeda
-- https://vision.huji.ac.il/dsire
-- https://horwitz.ai/podd
-- https://dreamix-video-editing.github.io
-- https://horwitz.ai/conffusion
-- https://horwitz.ai/3d_ads/
-- https://vision.huji.ac.il/ssrl_ad
-- https://vision.huji.ac.il/deepsim
+## Edit Content
 
+- Main page content: `index.html`
+- Styles: `static/css/index.css`
+- JS (carousel, sliders, helpers): `static/js/index.js`
+- Images: `static/images/`
+- PDFs: `static/pdfs/`
+- Videos: `static/videos/`
 
+## Local Preview
 
-## Start using the template
-To start using the template click on `Use this Template`.
+GitHub Pages will serve the site as static files. For local preview, run a simple static server in the repo root:
 
-The template uses html for controlling the content and css for controlling the style. 
-To edit the websites contents edit the `index.html` file. It contains different HTML "building blocks", use whichever ones you need and comment out the rest.  
+```bash
+python -m http.server 8000
+```
 
-Favicon is optional. If you want one, add/update a `<link rel="icon">` tag in `index.html`.
+Then open:
 
-## What's New
+- http://localhost:8000/
 
-- Modern, clean design with better mobile support
-- Improved SEO with proper meta tags and structured data
-- Performance improvements (lazy loading, optimized assets)
-- More Works dropdown
-- Copy button for BibTeX citations
-- Better accessibility
+## Notes
 
-## Components
-
-- Teaser video
-- Image carousel
-- YouTube video embedding
-- Video carousel
-- PDF poster viewer
-- BibTeX citation
-
-## Customization
-
-The HTML file has TODO comments showing what to replace:
-
-- Paper title, authors, institution, conference
-- Links (arXiv, GitHub, etc.)
-- Abstract and descriptions  
-- Videos, images, and PDFs
-- Related works in the dropdown
-- Meta tags for SEO and social sharing
-
-### Meta Tags
-The template includes meta tags for better search engine visibility and social media sharing. These appear in the `<head>` section and help with:
-- Google Scholar indexing
-- Social media previews (Twitter, Facebook, LinkedIn)
-- Search engine optimization
-
-Create a 1200x630px social preview image at `static/images/social_preview.png`.
-
-## Tips
-
-- Compress images with [TinyPNG](https://tinypng.com)
-- Use YouTube for large videos (>10MB)  
-- (Optional) Add/update a favicon in `index.html`
-- Works with GitHub Pages
+- Favicon is currently **not set** in `index.html`. If you want one, add a `<link rel="icon">` tag in the `<head>`.
 
 ## Acknowledgments
-Parts of this project page were adopted from the [Nerfies](https://nerfies.github.io/) page.
+
+This project page is based on the [Academic Project Page Template](https://github.com/eliahuhorwitz/Academic-project-page-template) and includes patterns inspired by [Nerfies](https://nerfies.github.io/).
 
 ## Website License
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
